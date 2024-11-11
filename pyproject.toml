@@ -1,0 +1,42 @@
+[project]
+name = "kandinsky-2"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Chris Hinrichs", email = "hinrichs@gmail.com" }
+]
+dependencies = [
+    "huggingface-hub==0.25.2",
+    "opencv-python",
+    "Pillow",
+    "attrs",
+    "torch",
+    "filelock",
+    "requests",
+    "tqdm",
+    "ftfy",
+    "regex",
+    "numpy",
+    "blobfile",
+    "transformers",
+    "torchvision",
+    "omegaconf",
+    "pytorch_lightning",
+    "einops",
+    "sentencepiece",
+    "diffusers",
+    "accelerate",
+    "multilingual-clip>=1.0.10",
+    "clip>=0.2.0",
+    "pip>=24.3.1",
+    "discord-py>=2.4.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
+
+
